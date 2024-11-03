@@ -1,0 +1,139 @@
+@font-face {
+    font-family: jota;
+    src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: jota;
+    background-color: #141414;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.card {
+    background-color: #1f1f1f;
+    height: 700px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+#name {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+}
+
+span {
+    color: #acd724;
+}
+
+p {
+    font-size: 14px;
+}
+
+#location {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+#description {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.profiles {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #acd724;
+    transition: 1s;
+}
+
+.attribution {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:active {
+    color: #acd724;
+}
+
+a:visited {
+    color: #acd724;
+}
+
+a:hover {
+    color: white;
+    transition: 1s;
+}
